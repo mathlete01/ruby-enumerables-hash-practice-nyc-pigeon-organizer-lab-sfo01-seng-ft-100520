@@ -1,7 +1,7 @@
 =begin
 This method iterates over each key-value pair and
 creates a new hash with the object passed into #each_with_object.
-So, the block variable a (for accumulator) gets assigned to an empty hash, 
+So, the block variable newHash gets assigned to an empty hash, 
 which is then built up according to set rules.
 =end
 
