@@ -9,7 +9,7 @@ def transform_hash()
   hash = { a: 1, b: 2 }
   puts "hash = #{hash}"
   hash.each_with_object({}) do |(key, value), newHash|
-   newHash{key} = value + 1
+   newHash[key] = value + 1
    puts "newHash = #{newHash}"
   end
 end
